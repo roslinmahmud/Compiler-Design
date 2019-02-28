@@ -78,17 +78,7 @@ void term(){
 
 
 void skip(char c){
-    if(c == '+')
-        ch++;
-    if(c == '-')
-        ch++;
-    if(c == '*')
-        ch++;
-    if(c == '/')
-        ch++;
-    if(c == '(')
-        ch++;
-    if(c == ')')
+    if(c == *ch)
         ch++;
 
     return;
